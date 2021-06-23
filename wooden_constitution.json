@@ -1,8 +1,0 @@
-{
-  "type": "origins:effect_immunity",
-  "effects": [
-    "minecraft:hunger"
-  ],
-  "name": "Wooden Constitution",
-  "description": "Being born from an ancient tree means that you do not feel unnatural hunger, but effects that harm plants do so to you more strongly"
-}
