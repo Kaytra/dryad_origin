@@ -1,0 +1,11 @@
+{
+  "type": "origins:prevent_item_use",
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "tag": "origins:processed_food"
+    }
+  },
+  "name": "Primative Diet",
+  "description": "Having been once part of an ancient tree, you are unused to a processed diet and can not even bring yourself to consume any food that has been processed in some ways"
+}

@@ -1,0 +1,26 @@
+{
+  "type": "origins:modify_damage_taken",
+  "damage_condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:name",
+        "name": "wither"
+      },
+      {
+        "type": "origins:name",
+        "name": "onFire"
+      },
+      {
+        "type": "origins:name",
+        "name": "magic"
+      }
+    ]
+  },
+  "modifier": {
+    "name": "Weak to magic damage",
+    "operation": "multiply_base",
+    "value": 0.5
+  },
+  "hidden": true
+}
